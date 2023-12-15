@@ -1,6 +1,6 @@
-Text to video for Stable Video Diffusion in ComfyUI
+**Text to video for Stable Video Diffusion in ComfyUI**
 
-This is node replaces the init_image conditioning for the Stable Video Diffusion image to video model with text embeds, together with a conditioning frame. The conditioning frame is a set of latents.
+This is node replaces the init_image conditioning for the [Stable Video Diffusion](https://github.com/Stability-AI/generative-models) image to video model with text embeds, together with a conditioning frame. The conditioning frame is a set of latents.
 
 It is recommended to input the latents in a noisy state. Default ComfyUI noise does not create optimal results, so using other noise e.g. Power-Law Noise helps.
 
