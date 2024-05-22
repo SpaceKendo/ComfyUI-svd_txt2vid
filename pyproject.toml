@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-svd_txt2vid"
+description = "This is node replaces the init_image conditioning for the [a/Stable Video Diffusion](https://github.com/Stability-AI/generative-models) image to video model with text embeds, together with a conditioning frame. The conditioning frame is a set of latents."
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/SpaceKendo/ComfyUI-svd_txt2vid"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-svd_txt2vid"
+Icon = ""
